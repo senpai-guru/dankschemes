@@ -1,0 +1,23 @@
+#!/bin/sh
+if [ "$TERM" = "linux" ]; then
+  /bin/echo -e "
+  \e]P00c0a0a
+  \e]P1cf38d7
+  \e]P2c474e3
+  \e]P3570e7e
+  \e]P4dface7
+  \e]P5ba2fba
+  \e]P658137d
+  \e]P7ea21b1
+  \e]P8e52ceb
+  \e]P90e0e11
+  \e]PAbe48dd
+  \e]PB901bbd
+  \e]PC8c21af
+  \e]PDfb13fa
+  \e]PE5f1487
+  \e]PF9e249e
+  "
+  # get rid of artifacts
+  clear
+fi
